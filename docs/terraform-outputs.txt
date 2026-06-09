@@ -1,0 +1,23 @@
+alb_sg_id = "sg-0a721de95875b94a6"
+audit_logs_bucket = "banking-rag-audit-logs-418272768931"
+db_credentials_arn = "arn:aws:secretsmanager:ca-central-1:418272768931:secret:banking-rag/db-credentials-qhV1W5"
+db_endpoint = "banking-rag-postgres.cniamgimctyx.ca-central-1.rds.amazonaws.com:5432"
+ecs_sg_id = "sg-07484ea6248efd442"
+ecs_task_execution_role_arn = "arn:aws:iam::418272768931:role/banking-rag-ecs-execution-role"
+ecs_task_role_arn = "arn:aws:iam::418272768931:role/banking-rag-ecs-task-role"
+ingestion_queue_url = "https://sqs.ca-central-1.amazonaws.com/418272768931/banking-rag-ingestion-queue"
+lambda_execution_role_arn = "arn:aws:iam::418272768931:role/banking-rag-lambda-role"
+openai_key_arn = "arn:aws:secretsmanager:ca-central-1:418272768931:secret:banking-rag/openai-api-key-WtmvNd"
+private_subnet_ids = [
+  "subnet-054d86d36d277d329",
+  "subnet-081b194a75810aeab",
+]
+processed_docs_bucket = "banking-rag-processed-docs-418272768931"
+processing_queue_url = "https://sqs.ca-central-1.amazonaws.com/418272768931/banking-rag-processing-queue"
+public_subnet_ids = [
+  "subnet-0c6e174a65e434ae5",
+  "subnet-05c3dc4ada83cefe9",
+]
+raw_docs_bucket = "banking-rag-raw-docs-418272768931"
+rds_sg_id = "sg-0fecbfe9d332591d6"
+vpc_id = "vpc-05d88980d340b58ff"

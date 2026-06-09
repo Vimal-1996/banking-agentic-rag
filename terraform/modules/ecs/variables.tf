@@ -1,0 +1,10 @@
+variable "project_name"               { type = string }
+variable "aws_region"                 { type = string }
+variable "vpc_id"                     { type = string }
+variable "public_subnet_ids"          { type = list(string) }
+variable "alb_sg_id"                  { type = string }
+variable "ecs_sg_id"                  { type = string }
+variable "ecs_task_execution_role_arn" { type = string }
+variable "ecs_task_role_arn"          { type = string }
+variable "db_credentials_arn"         { type = string }
+variable "openai_key_arn"             { type = string }
