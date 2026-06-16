@@ -1,28 +1,28 @@
-alb_dns_name = "banking-rag-alb-1400824736.ca-central-1.elb.amazonaws.com"
-alb_sg_id = "sg-0a721de95875b94a6"
+alb_dns_name = "banking-rag-alb-1344116908.ca-central-1.elb.amazonaws.com"
+alb_sg_id = "sg-0ebc8bf72ec4b496b"
 audit_logs_bucket = "banking-rag-audit-logs-418272768931"
-db_credentials_arn = "arn:aws:secretsmanager:ca-central-1:418272768931:secret:banking-rag/db-credentials-qhV1W5"
+db_credentials_arn = "arn:aws:secretsmanager:ca-central-1:418272768931:secret:banking-rag/db-credentials-Xl8tyr"
 db_endpoint = "banking-rag-postgres.cniamgimctyx.ca-central-1.rds.amazonaws.com:5432"
 ecr_repository_name = "banking-rag-api"
 ecr_repository_url = "418272768931.dkr.ecr.ca-central-1.amazonaws.com/banking-rag-api"
 ecs_cluster_name = "banking-rag-cluster"
 ecs_service_name = "banking-rag-api-service"
-ecs_sg_id = "sg-07484ea6248efd442"
+ecs_sg_id = "sg-073eee8466f4909d6"
 ecs_task_execution_role_arn = "arn:aws:iam::418272768931:role/banking-rag-ecs-execution-role"
 ecs_task_role_arn = "arn:aws:iam::418272768931:role/banking-rag-ecs-task-role"
 ingestion_queue_url = "https://sqs.ca-central-1.amazonaws.com/418272768931/banking-rag-ingestion-queue"
 lambda_execution_role_arn = "arn:aws:iam::418272768931:role/banking-rag-lambda-role"
-openai_key_arn = "arn:aws:secretsmanager:ca-central-1:418272768931:secret:banking-rag/openai-api-key-WtmvNd"
+openai_key_arn = "arn:aws:secretsmanager:ca-central-1:418272768931:secret:banking-rag/openai-api-key-8l4G5q"
 private_subnet_ids = [
-  "subnet-054d86d36d277d329",
-  "subnet-081b194a75810aeab",
+  "subnet-0f7578835fb3d4d56",
+  "subnet-01d661273a5eb8aa4",
 ]
 processed_docs_bucket = "banking-rag-processed-docs-418272768931"
 processing_queue_url = "https://sqs.ca-central-1.amazonaws.com/418272768931/banking-rag-processing-queue"
 public_subnet_ids = [
-  "subnet-0c6e174a65e434ae5",
-  "subnet-05c3dc4ada83cefe9",
+  "subnet-06b238d20303f80e8",
+  "subnet-0ce9a3010118f7aec",
 ]
 raw_docs_bucket = "banking-rag-raw-docs-418272768931"
-rds_sg_id = "sg-0fecbfe9d332591d6"
-vpc_id = "vpc-05d88980d340b58ff"
+rds_sg_id = "sg-0ca32bf38e7817ebf"
+vpc_id = "vpc-074cb3b1213833c11"
